@@ -78,7 +78,12 @@ async def start(client, message):
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton(" 🔄 Try Again 👈 Tap me 🥰", callback_data=f"checksub#{message.command[1]}")])
+            try:
+                kk, file_id = message.command[1].split("_", 1)
+                pre = 'checksubp' if kk == 'filep' else 'checksub' 
+                btn.append([InlineKeyboardButton("", callback_data=f"{pre}#{file_id}")])
+            except (IndexError, ValueError):
+                btn.append([InlineKeyboardButton("", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**Join My Channel To Get Telegram File \n\nChannel la sendha dhaa File uhh Ilana Vaipilla Raja 🏃⚡**",
