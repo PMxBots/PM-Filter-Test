@@ -1,22 +1,22 @@
 class script(object):
-    START_TXT = """Hey {}\n\n<b>Welcome to MSP x Filter BoT</b>
+    START_TXT = """Hey {}\n\n<b>Welcome to Movie Search Bot</b>
 """
     HELP_TXT = """Hey {}
 Here is the Help of Commands"""
     ABOUT_TXT = """Enna iruda unnaku enna Brooo😂"""
     SOURCE_TXT = """Vaa Arunachalam ne varuva nu theriyum😎"""
-    MANUELFILTER_TXT = """For Help contact @BaashaXBoT"""
+    MANUELFILTER_TXT = """For Help contact @PMxPGVbot"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- MSP x Filter Supports both url and alert inline buttons.
+- Movie Search Bot Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. MSP x Filter supports buttons with any telegram media type.
+2. Movie Search Bot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/MSPxFilterBoT)</code>
+<code>[Button Text](buttonurl:https://t.me/PM_Moviebot)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
