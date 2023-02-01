@@ -1,9 +1,20 @@
 class script(object):
     START_TXT = """Hey {}\n\n<b>Welcome to Movie Search Bot</b>
+
+<b>I can provide Movies. A Telegram Auto Filter Bot. Its Easy To Use Me :)
+
+Just Add me to Your Group As Admin, Hit The Help Button For More Info..
+
+✨ 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 :  <a href='https://t.me/PM_Bots'>𝗣𝗠 𝗕𝗼𝘁𝘀</a> </b>"""
 """
     HELP_TXT = """Hey {}
 Here is the Help of Commands"""
-    ABOUT_TXT = """Enna iruda unnaku enna Brooo😂"""
+    ABOUT_TXT = """<b>🥱 My Name : see my name on the top
+🕵‍♂ Developer : <a href='https://t.me/vadivel_da'>𝘃𝗮𝗱𝗶𝘃𝗲𝗹 𝗱𝗮</a>
+📚 Library : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
+🖥 Language : 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
+🎪 Data Base : 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
+🔋 Updates : @PM_Bots </b>"""
     SOURCE_TXT = """Vaa Arunachalam ne varuva nu theriyum😎"""
     MANUELFILTER_TXT = """For Help contact @PMxPGVbot"""
     BUTTON_TXT = """Help: <b>Buttons</b>
