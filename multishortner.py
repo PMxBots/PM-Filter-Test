@@ -4,7 +4,7 @@ import pyshorteners
 
 
 SHORTENER = 'du-link.in'
-SHORTENER_API = '1365e9188e42c7888f5637727f64871669b13fd0'
+SHORTENER_API = 'd19cb8275a7951db2bb2f4ea6593be33cf78d585'
 
 
 
