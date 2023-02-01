@@ -26,7 +26,7 @@ async def save_group(bot, message):
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
-                text='<b>CHAT NOT ALLOWED 🐞\n\nMy admins has restricted me from working here ! If you want to know more about it contact support [@BaashaXBoT] for paid work..</b>',
+                text='<b>CHAT NOT ALLOWED 🐞\n\nMy admins has restricted me from working here ! If you want to know more about it contact support [@PMxPGVbot] for paid work..</b>',
                 reply_markup=reply_markup,
             )
 
@@ -37,8 +37,8 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('JOIN CHANNEL ‼️', url=f"https://t.me/MSPmoviesOffl"),
-            InlineKeyboardButton('Powered By 🌟', url='https://t.me/MSPbots')
+            InlineKeyboardButton('JOIN CHANNEL ‼️', url=f"https://t.me/Pulikesi_Links"),
+            InlineKeyboardButton('Powered By 🌟', url='https://t.me/PM_bots')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -72,7 +72,7 @@ async def leave_a_chat(bot, message):
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
             chat_id=chat,
-            text='<b>Hello Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact my support contact [@TamilBlastersOffl] for paid work.</b>',
+            text='<b>Hello Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact my support contact [@PMxPGVbot] for paid work.</b>',
             reply_markup=reply_markup,
         )
 
