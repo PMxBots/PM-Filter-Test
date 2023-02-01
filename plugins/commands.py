@@ -22,15 +22,15 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-            InlineKeyboardButton('MSP Movies Official ⚡️', url='https://t.me/MSPmoviesOffl')
+            InlineKeyboardButton('New Movies ⚡️', url='https://t.me/Pulikesi_Links')
             ],[
-            InlineKeyboardButton('MSP Discussion 🎯', url='https://t.me/MSPdiscussion'),
-            InlineKeyboardButton('MSP Discussion 2 🎯', url='https://t.me/MSPdiscussion2')
+            InlineKeyboardButton('Movie Request group 🎯', url='https://t.me/PMRequestgroup'),
+            InlineKeyboardButton('Movie Request group 2 🎯', url='https://t.me/RequestgroupPM')
             ],[
             InlineKeyboardButton('Help ‼️' , callback_data='help'),
             InlineKeyboardButton('About Meh 📬', callback_data='about')
             ],[
-            InlineKeyboardButton('Powered By 🌟', url='https://t.me/MSPbots')
+            InlineKeyboardButton('Powered By 🌟', url='https://t.me/PM_bots')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -45,15 +45,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('MSP Movies Official ⚡️', url='https://t.me/MSPmoviesOffl')
+            InlineKeyboardButton('New Movies ⚡️', url='https://t.me/Pulikesi_Links')
             ],[
-            InlineKeyboardButton('MSP Discussion 🎯', url='https://t.me/MSPdiscussion'),
-            InlineKeyboardButton('MSP Discussion 2 🎯', url='https://t.me/MSPdiscussion2')
+            InlineKeyboardButton('Movie Request group 🎯', url='https://t.me/PMRequestgroup'),
+            InlineKeyboardButton('Movie Request group 2 🎯', url='https://t.me/RequestgroupPM')
             ],[
             InlineKeyboardButton('Help ‼️' , callback_data='help'),
             InlineKeyboardButton('About Meh 📬', callback_data='about')
             ],[
-            InlineKeyboardButton('Powered By 🌟', url='https://t.me/MSPbots')
+            InlineKeyboardButton('Powered By 🌟', url='https://t.me/PM_bots')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -93,15 +93,15 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('MSP Movies Official ⚡️', url='https://t.me/MSPmoviesOffl')
+            InlineKeyboardButton('New Movies ⚡️', url='https://t.me/Pulikesi_Links')
             ],[
-            InlineKeyboardButton('MSP Discussion 🎯', url='https://t.me/MSPdiscussion'),
-            InlineKeyboardButton('MSP Discussion 2 🎯', url='https://t.me/MSPdiscussion2')
+            InlineKeyboardButton('Movie Request group 🎯', url='https://t.me/PMRequestgroup'),
+            InlineKeyboardButton('Movie Request group 2 🎯', url='https://t.me/RequestgroupPM')
             ],[
             InlineKeyboardButton('Help ‼️' , callback_data='help'),
             InlineKeyboardButton('About Meh 📬', callback_data='about')
             ],[
-            InlineKeyboardButton('Powered By 🌟', url='https://t.me/MSPbots')
+            InlineKeyboardButton('Powered By 🌟', url='https://t.me/PM_bots')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
