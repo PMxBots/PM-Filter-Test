@@ -369,7 +369,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('Click Here for Telegram File👻', url=g)
                 ],
                 [
-                    InlineKeyboardButton('How To Get Telegram File 🤔⁉️', url='https://t.me/MSPbots/19')
+                    InlineKeyboardButton('How To Get Telegram File 🤔⁉️', url='https://t.me/PM_Tutorial/4')
                 ]]))
                 await query.answer('Check PM, I Have Send Files In Your PM ‼️\n\nPM ( Personal Message ) Paruga bhaa Files anupitan ⚡‼️', show_alert=True)
         except UserIsBlocked:
@@ -411,15 +411,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('MSP Movies Official ⚡️', url='https://t.me/MSPmoviesOffl')
+            InlineKeyboardButton('MSP Movies Official ⚡️', url='https://t.me/Pulikesi_Links')
             ],[
-            InlineKeyboardButton('MSP Discussion 🎯', url='https://t.me/MSPdiscussion'),
-            InlineKeyboardButton('MSP Discussion 2 🎯', url='https://t.me/MSPdiscussion2')
+            InlineKeyboardButton('Movie Request group 🎯', url='https://t.me/PMRequestgroup'),
+            InlineKeyboardButton('Movie Request group 2 🎯', url='https://t.me/RequestgroupPM')
             ],[
             InlineKeyboardButton('Help ‼️' , callback_data='help'),
             InlineKeyboardButton('About Meh 📬', callback_data='about')
             ],[
-            InlineKeyboardButton('Powered By 🌟', url='https://t.me/MSPbots')
+            InlineKeyboardButton('Powered By 🌟', url='https://t.me/PM_bots')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -433,7 +433,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('About 🏃' , callback_data='about'),
             InlineKeyboardButton('Stats 📢', callback_data='stats')
             ],[
-            InlineKeyboardButton('Powered By 🌟', url='https://t.me/MSPbots')
+            InlineKeyboardButton('Powered By 🌟', url='https://t.me/PM_bots')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -446,7 +446,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Help ‼️' , callback_data='help'),
             InlineKeyboardButton('Home ⭐', callback_data='start')
             ],[
-            InlineKeyboardButton('Powered By 🌟', url='https://t.me/MSPbots')
+            InlineKeyboardButton('Powered By 🌟', url='https://t.me/PM_bots')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
